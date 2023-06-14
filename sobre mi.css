@@ -1,0 +1,43 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #00c3ff;
+}
+
+.background {
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100vh;
+	width: 100vw;
+	background-color: #3d5a80;
+	background-image: linear-gradient(to bottom, #3d5a80, #23395d);
+	opacity: 0.5;
+	z-index: -1;
+}
+
+.content {
+	position: relative;
+	z-index: 1;
+	margin: 0 auto;
+	width: 80%;
+	padding: 50px;
+	color: #000000;
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+}
+
+h1 {
+	font-size: 3em;
+	font-weight: 800;
+	margin-bottom: 30px;
+}
+
+p {
+	font-size: 1.5em;
+	line-height: 1.6;
+}
