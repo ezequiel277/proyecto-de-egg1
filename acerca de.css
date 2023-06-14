@@ -1,0 +1,40 @@
+/* Estilos para el encabezado */
+header{
+    background-color: #07a5d4;
+    color: #000000;
+    text-align: center;
+    padding: 1em;
+  }
+  
+  /* Estilos del cuerpo */
+  body{
+    font-family:'Open Sans', sans-serif;
+    padding: 2em;
+  }
+  
+
+
+
+
+
+  
+  /* Estilos del pie de página */
+  footer{
+    margin-top: 2em;
+    text-align: center;
+    color: #008bcc;
+    background-color: #fff7f7;
+    padding: 1em;
+  }
+  
+  /* Estilos para lista no ordenada */
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilos para lista con viñetas */
+  li {
+    margin-bottom: 5px;
+  }
